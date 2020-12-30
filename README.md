@@ -1,4 +1,4 @@
-# CoderSchool FTW - * Name of Your News MegaCorp Here *
+# CoderSchool FTW - * PocketNews *
 
 Created with love by: `teammates.map(teammate => teammate.name)`
   
@@ -6,15 +6,6 @@ View online at: `Your URL here`
   
 One or two sentence summary of your project, anything fun that you liked. 
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories.
-
-To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http://www.recordit.co), or [Loom](http://www.useloom.com), and link the image here in the markdown.
-
-```
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-```
 
 ## User Stories
 

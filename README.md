@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 - [ ] The user can see a checkbox for every unique source of the articles loaded. For example, if the user loads four stories, and two stories are from bbc-news, one from cnn, and one from spiegel-de, the user would see three checkboxes: bbc-news, cnn, spiegel-de.
 - [ ] Next to the source name, the user sees a number representing the number of stories from that source. To continue the previous example: bbc-news (2), cnn (1), spiegel-de (1).
 - [ ] The user can toggle the checkbox to hide or show stories from that source in the list.
-- [ ] The user should see new stories related to the category he/she chose.
+- [x] The user should see new stories related to the category he/she chose.
 
 The following **additional** features are implemented:
 

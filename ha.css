@@ -533,8 +533,8 @@ p {
   background: #eeeef2;
 }
 
-.ha-section {
-  padding: 100px;
+.ha-section-1 {
+  padding: 10px 60px 10px 60px;
   max-width: 100%vw;
   margin: 20px;
 }

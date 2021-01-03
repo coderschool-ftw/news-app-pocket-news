@@ -27,7 +27,7 @@ const getNewsByCat = async () => {
   <p style="color:DarkGreen;"> Author: ${data.articles[1].author} | 
   Source: ${data.articles[1].source.name} 
   </br> Last Update: ${new Date(data.articles[1].publishedAt)}</p>`;
-  thumbnail1.innerHTML = `<img class="img-thumbnail img-fluid  float-start" src=${data.articles[1].urlToImage}></img> `;
+  thumbnail1.innerHTML = `<hr><img class="img-thumbnail img-fluid  float-start" src=${data.articles[1].urlToImage}></img> `;
 
   result2.innerHTML = `<hr><h3><a href="${data.articles[2].url}">${
     data.articles[2].title
@@ -37,7 +37,7 @@ const getNewsByCat = async () => {
   <p style="color:DarkGreen;"> Author: ${data.articles[2].author} 
   | Source: ${data.articles[2].source.name}
   </br> Last Update: ${new Date(data.articles[2].publishedAt)}</p>`;
-  thumbnail2.innerHTML = `<img class="img-thumbnail img-fluid  float-start" src=${data.articles[2].urlToImage}></img> `;
+  thumbnail2.innerHTML = `<hr><img class="img-thumbnail img-fluid  float-start" src=${data.articles[2].urlToImage}></img> `;
 
   result3.innerHTML = `<hr><h3><a href="${data.articles[3].url}">${
     data.articles[3].title
@@ -49,7 +49,7 @@ const getNewsByCat = async () => {
   | Source: ${data.articles[3].source.name}
   </br> Last Update: ${new Date(data.articles[3].publishedAt)}</p>
   `;
-  thumbnail3.innerHTML = `<img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[3].urlToImage}></img> `;
+  thumbnail3.innerHTML = `<hr><img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[3].urlToImage}></img> `;
 
   result4.innerHTML = `<hr><h3><a href="${data.articles[4].url}">${
     data.articles[4].title
@@ -60,7 +60,7 @@ const getNewsByCat = async () => {
   Author: ${data.articles[4].author} 
   | Source: ${data.articles[4].source.name}
   </br> Last Update: ${new Date(data.articles[4].publishedAt)} </p>`;
-  thumbnail4.innerHTML = `<img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[4].urlToImage}></img>`;
+  thumbnail4.innerHTML = `<hr><img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[4].urlToImage}></img>`;
 
   result5.innerHTML = `<hr><h3><a href="${data.articles[5].url}">${
     data.articles[5].title
@@ -71,7 +71,7 @@ const getNewsByCat = async () => {
     data.articles[5].source.name
   }
   </br> Last Update: ${new Date(data.articles[5].publishedAt)}</p>`;
-  thumbnail5.innerHTML = `<img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[5].urlToImage}></img>`;
+  thumbnail5.innerHTML = `<hr><img class="img-thumbnail img-fluid  float-start" id="thumbnail3" src=${data.articles[5].urlToImage}></img>`;
 };
 
 document
